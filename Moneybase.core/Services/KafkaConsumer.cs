@@ -60,7 +60,6 @@ namespace Moneybase.core.Services
 
         private ChatSession DeserializeChatSession(string message)
         {
-            // Implement your deserialization logic here
             return JsonSerializer.Deserialize<ChatSession>(message);
         }
 
