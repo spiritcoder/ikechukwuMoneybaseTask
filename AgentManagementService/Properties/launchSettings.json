@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "AgentManagementService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "KafkaURL": "localhost:9092",
+        "KafkaTopic": "chat_sessions",
+        "KafkaGroupID": "chat-group"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
